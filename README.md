@@ -4,23 +4,23 @@ Ho fanampiana ireo rehetra izay vao hi-contribuer amin'ny projet OpenSource.
 
 Rehefa hi-contribuer amin'ny projet iray ianao dia :
 
-1 - Manova fork an'ilay projet.
+1 - Manaova fork an'ilay projet.
 
 2 - Mandehana ao amin'ny repository anao dia ho hitanao ao ilay projet nataonao fork.
 
-3 - Cloneo ilay projet noforkenao ao amin'ny repository anao
+3 - Cloneo ilay projet no-forkenao ao amin'ny repository anao
 ```
 $ git clone ilay_url_ao_amin_repo_anao
 ```
-4 - Midira ao amin'ilay projet en local anao rehefa vo-clone ilay izy.
+4 - Midira ao amin'ilay projet en local anao rehefa vao-clone ilay izy.
 ```
 $ cd ilay_repo
 ```
-5 - Apetraho ao amin'ilay repos local anao ilay url an'ilay projet source mba ho à jour foana ny local anao
+5 - Apetraho ao amin'ilay repository local anao ilay **url** an'ilay projet source mba ho à jour foana ny local anao
 ```
 $ git remote add upstream ilay_url_original_an_ilay_projet_noforkena
 ```
-6 - Raiso ny modification rehetra any amin'ny upstream
+6 - Raiso ny modification rehetra avy any amin'ny upstream
 ```
 $ git fetch upstream
 ```
@@ -39,17 +39,17 @@ ____
 $ node, composer ...
 ```
 
-Rehefa izay dia tohizanao ny zavatra ataoanao ao amin'ny local anao , rehefa afa-po ianao ao amin'ny local ianao dia pushenao ny modification nataonao , alohan'ny i-pushena anefa dia manaova fetch an'ilay upstream foana aloha ( satria mety ho betsaka ny contributeur ary misy mikitika foana ilay repo ).
-Raha misy modif dia manao merge indray .
+Rehefa izay dia tohizanao ny zavatra ataonao ao amin'ny local anao , rehefa afa-po ianao ao amin'ny local ianao dia pushenao ny modification nataonao , alohan'ny hi-pushena anefa dia manaova fetch an'ilay upstream foana aloha ( satria mety ho betsaka ny contributeur ary misy mikitika foana ilay repository ).
+Raha misy modification dia manao merge indray.
 ```
 $ git fetch upstream
 ```
-Raha misy modif dia mergeo ao amin'ny master anao:
+Raha nisy modification dia mergeo ao amin'ny master anao.
 ```
 $ git merge upstream/brancheko_vaovao
 ```
 
-Rehefa izay dia akaro amin'izay ilay modif anao:
+Rehefa izay dia akaro amin'izay ilay modification anao.
 ```
 $ git add fichier_no_modifier_nao
 $ git commit -m "message commit anao"
